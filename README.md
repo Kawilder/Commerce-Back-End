@@ -29,12 +29,16 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Project Links
 [Repo Link](https://github.com/Kawilder/Online-Shopping-Back-End) <br>
+[Video Link](https://drive.google.com/file/d/1bIEijBUCrGDN7bnMvQwbOsT56-Z3ZCOZ/view)
 
 ## Instructions
-git clone https://github.com/Kawilder/Online-Shopping-Back-End.git
-open up the terminal and run these commands.
-`npm i`
-`npm run seed`
+git clone https://github.com/Kawilder/Online-Shopping-Back-End.git <br>
+Populate your own .env file <br>
+open up the terminal and run these commands. <br>
+`npm i` <br>
+`mysql -u root -p` <br>
+`source db/schema.sql` <br>
+`npm run seed` <br>
 `npm start`
 
 ## Project Team
